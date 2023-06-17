@@ -33,17 +33,17 @@ void asc(){
 }
 
 void desc(){
-    int num[]= {5,2,3,1,4};
+    int num[]= {109,3,9,150,4,10,69,75,15,99};
     int i,j,t;
     cout<<endl<<"DATA Bubble Sort"<<endl;
-    for(i=0; i<5; i++)
+    for(i=0; i<109; i++)
     {
         cout<<num[i]<<" ";
     }
     
-    for(i=0; i<4; i++)
+    for(i=0; i<99; i++)
     {
-        for(j=0; j<4-i; j++)
+        for(j=0; j<99-i; j++)
         {
             if(num[j]<num[j+1])
             {
